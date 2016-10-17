@@ -6,13 +6,26 @@
     @@  
     @
  * Date: 2016/10/17
- * Author: 1050210XX 周永振老師
+ * Author: 102002017 邱泓偉
  */
 
-public class ex04_1050210XX {
+import java.util.Scanner;
+public class ex04_102002017 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		Scanner scn = new Scanner(System.in);
+		int n = scn.nextInt();
+		
+		for(int i = 1; i <= n; i++)
+		{
+			for(int j = n+1; j != i; j--)
+			{
+				System.out.print("@");
+			}
+			System.out.println();
+		}
 
 	}
 
